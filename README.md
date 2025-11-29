@@ -6,14 +6,14 @@ We propose a new computational model, Multiple similarity and multiple kernel fu
 
 # Environment Requirement
 
-    python == 3.8
-    torch == 1.4.0
+    python == 3.9.13
+    torch == 2.5.1
     torch-genometric == 1.4.2
     matplotlib == 3.5.2
-    networkx == 2.8
+    networkx == 2.8.4
     numpy == 1.21.6
     pandas == 1.4.2
-    scipy == 1.8.0
+    scipy == 1.9.1
     
 # Dataset
 
