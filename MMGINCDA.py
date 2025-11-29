@@ -77,13 +77,15 @@ def GAMA(H, A,B):
         if PRE < tol:
             break
     return w
-
+#120
 def truncated(H0):
     for i in range(0,2):
         U,S,V = np.linalg.svd(H0)
+        #print(U.shape,V.shape)
         r = 120
         A = U[:,:r]
         B = V[:r,:]
+
         H0 = GAMA(H0,A,B)
 
     Smmi = H0
