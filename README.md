@@ -21,7 +21,7 @@ We performed 5-fold cross validation on four datasets. Dataset1-4 are from CircR
 
 # Model
 
-    ## Main.py: This file contains the main function. The paramaters of LGCDA are also adjusted in this file.
+    MMGINCDA.py: This file contains the main function. The paramaters of MMGINCDA are also adjusted in this file.
     models.py: This file contains model building.
     preprocessing.py: This file contains data reading.
     similarty_calculated.py: This file records the detail of computing Gaussian similarities and cosine similarities.
