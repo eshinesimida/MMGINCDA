@@ -22,9 +22,9 @@ We performed 5-fold cross validation on four datasets. Dataset1-4 are from CircR
 # Model
 
     MMGINCDA.py: This file contains the main function. The paramaters of MMGINCDA are also adjusted in this file.
-    models.py: This file contains model building.
-    preprocessing.py: This file contains data reading.
-    similarty_calculated.py: This file records the detail of computing Gaussian similarities and cosine similarities.
-    sortscore.py: The prediction score of each circRNA-disease pair is sorted in this file before computing the AUC/AUPR.
-    train_eval.py: This file records the detail of model training.
-    util_functions.py: Constructing closed local subgraphs for (circRNA, disease) association pairs in this file.
+    GKS.py: This file contains calculating the Gaussian kernel similarity.
+    Global_similarity.py: This file contains calculating the global similarity.
+    LKS1.py: This file contains calculating the Laplace kernel similarity.
+    Local_similarity.py: This file contains calculating the local similarity.
+    SKF1.py: This file records the process of model fusion.
+    known.py: This file contains the knonw and unkonw circRNA-disease associations.
