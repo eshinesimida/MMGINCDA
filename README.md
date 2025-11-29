@@ -14,4 +14,8 @@ We propose a new computational model, Multiple similarity and multiple kernel fu
     numpy == 1.21.6
     pandas == 1.4.2
     scipy == 1.8.0
+    
+# Dataset
+
+We performed 5-fold cross validation on four datasets. Dataset1-4 are from CircR2Disease database, CircRNADisease database, Circ2Disease database, and CircR2Disease v2.0, respectively. We divided the known circRNA-disease associations into five equal parts and stored them in .txt files.
 
